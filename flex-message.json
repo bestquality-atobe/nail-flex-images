@@ -1,0 +1,170 @@
+{
+  "type": "bubble",
+  "size": "mega",
+  "hero": {
+    "type": "image",
+    "url": "https://raw.githubusercontent.com/bestquality-atobe/nail-flex-images/main/nail.jpg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "label": "nail cliniqueを見る",
+      "uri": "https://nailclinique.net/about/"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Best Quality",
+        "weight": "bold",
+        "size": "xl",
+        "wrap": true
+      },
+      {
+        "type": "text",
+        "text": "爪から始める、新しい健康チェック",
+        "size": "sm",
+        "color": "#666666",
+        "wrap": true
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "lg",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://raw.githubusercontent.com/bestquality-atobe/nail-flex-images/main/staff.jpg",
+            "size": "sm",
+            "aspectRatio": "1:1",
+            "aspectMode": "cover",
+            "flex": 2
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 4,
+            "contents": [
+              {
+                "type": "text",
+                "text": "あなたの爪の状態をチェック",
+                "weight": "bold",
+                "size": "md",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "簡単な質問に答えて、今の爪の状態やケアのポイントを確認してみましょう。",
+                "size": "xs",
+                "color": "#777777",
+                "wrap": true,
+                "margin": "sm"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "所在地",
+                "size": "sm",
+                "color": "#888888",
+                "flex": 2
+              },
+              {
+                "type": "text",
+                "text": "〒107-0061 東京都港区北青山3丁目8-8 カーム青山401",
+                "size": "sm",
+                "color": "#333333",
+                "wrap": true,
+                "flex": 5
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "電話",
+                "size": "sm",
+                "color": "#888888",
+                "flex": 2
+              },
+              {
+                "type": "text",
+                "text": "080-7112-0088",
+                "size": "sm",
+                "color": "#333333",
+                "flex": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "height": "sm",
+        "color": "#E58FA5",
+        "action": {
+          "type": "uri",
+          "label": "健康チェックをはじめる",
+          "uri": "https://miniapp.line.me/2007511299-b8maVL7l"
+        }
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "公式サイト",
+          "uri": "https://nailclinique.net/about/"
+        }
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "電話する",
+          "uri": "tel:08071120088"
+        }
+      }
+    ]
+  }
+}
